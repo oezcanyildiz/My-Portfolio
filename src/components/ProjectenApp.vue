@@ -32,6 +32,9 @@
                             <span>Live</span>
                         </a>
                     </div>
+                    <div class="text-center border p-5">
+                        <h1>Responsive / Mobile First</h1>
+                    </div>
                 </div>
 
             </div>
@@ -57,6 +60,9 @@
                                 <span>Live</span>
                             </a>
                         </div>
+                        <div class="text-center border p-5">
+                        <h1>Responsive / Mobile First</h1>
+                    </div>
                     </div>
                     <div class="w-full slider2img">
                         <vueper-slides fade :touchable="false">
@@ -82,6 +88,11 @@
             </div>
             <div class="projekt3 flex flex-col w-full border bg-slate-100 p-10">
                 <div class="static1 w-full flex">
+                    <div class="slidebilder w-full blur-sm">
+                        <vueper-slides fade :touchable="false">
+                            <vueper-slide v-for="(slide, i) in slides3" :key="i" :image="slide.image" />
+                        </vueper-slides>
+                    </div>
                     <div class="flex flex-col w-72 pr-3 gap-5">
                         <p class="text-2xl font-bold">Hire UP!</p>
                         <div>
@@ -89,14 +100,12 @@
                                 Es handelt sich um eine Plattform für Job-Angebote. Das Projekt befindet sich noch in der
                                 Entwicklungsphase.
                             </span>
-
                         </div>
+                        <div class="text-center border p-5">
+                        <h1>Responsive / Mobile First</h1>
                     </div>
-                    <div class="slidebilder w-full blur-sm">
-                        <vueper-slides fade :touchable="false">
-                            <vueper-slide v-for="(slide, i) in slides3" :key="i" :image="slide.image" />
-                        </vueper-slides>
                     </div>
+
                 </div>
                 <div class="erklärung flex text-center justify-center items-center p-10">
                     <h2>In den Projeckt als <strong>PACKAGE</strong>`s wird
@@ -110,9 +119,9 @@
                         <strong>"PersistedState"</strong>
                         <strong>"Socket-IO"</strong>
                     </h2>
-                    <p>In dem Website wird man nach Jobs in verschiedenen Branchen suchen können, sich auf der Website
+                    <p>Auf der Website wird man nach Jobs in verschiedenen Branchen suchen können, sich auf der Website
                         registrieren, einloggen und ausloggen, Anzeigen schalten, liken und die als
-                        Favoriten speichern sowie einsehen können, wer und wann die Anzeige veröffentlicht wurde.</p>
+                        Favoriten speichern sowie einsehen können, von wem und wann die Anzeige veröffentlicht wurde.</p>
 
                 </div>
             </div>
@@ -135,50 +144,50 @@ export default {
         return {
             slides1: [
                 {
-                    image: "src/img/Car-Planet1.png"
+                    image: "/assets/Car-Planet1.png"
                 },
                 {
-                    image: "src/img/Car-Planet2.png"
+                    image: "/assets/Car-Planet2.png"
                 },
                 {
-                    image: "src/img/Car-Planet3.png"
+                    image: "/assets/Car-Planet3.png"
                 },
                 {
-                    image: "src/img/Car-Planet4.png"
+                    image: "/assets/Car-Planet4.png"
                 },
             ],
             slides2: [
                 {
-                    image: "src/img/Leather1.png"
+                    image: "/assets/Leather1.png"
                 },
                 {
-                    image: "src/img/Leather2.png"
+                    image: "/assets/Leather2.png"
                 },
                 {
-                    image: "src/img/Leather3.png"
+                    image: "/assets/Leather3.png"
                 },
                 {
-                    image: "src/img/Leather4.png"
+                    image: "/assets/Leather4.png"
                 },
                 {
-                    image: "src/img/Leather5.png"
+                    image: "/assets/Leather5.png"
                 },
                 {
-                    image: "src/img/Leather6.png"
+                    image: "/assets/Leather6.png"
                 },
             ],
             slides3: [
                 {
-                    image: "src/img/HIRE-UP.png"
+                    image: "/assets/HIRE-UP.png"
                 },
                 {
-                    image: "src/img/HIRE-UP1.png"
+                    image: "/assets/HIRE-UP1.png"
                 },
                 {
-                    image: "src/img/HIRE-UP2.png"
+                    image: "/assets/HIRE-UP2.png"
                 },
                 {
-                    image: "src/img/HIRE-UP3.png"
+                    image: "/assets/HIRE-UP3.png"
                 },
             ],
         }

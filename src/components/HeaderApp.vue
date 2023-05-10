@@ -16,7 +16,7 @@
             <div class="p-10 textanim">
                 <h2 class="md:text-4xl font-bold py-5">Hallo, Mein Name ist Ozcan Yildiz</h2>
                 <p>
-                    Ich arbeite als <strong class="text-xl">Web Dvelopper</strong> daran, eure Träume und Gedanken zu verwirklichen. 
+                    Ich arbeite als <strong class="text-xl">Webentwickler</strong> daran, eure Träume und Gedanken zu verwirklichen. 
                     Durch meine Kreativität versuche ich, meine Fähigkeiten bestmöglich einzusetzen und neue und
                     interessante Projekte im Internet zu realisieren. Deshalb halte ich mich immer auf dem neuesten Stand
                     der Technologie und bilde mich kontinuierlich weiter und Ich bemühe mich ständig, 

@@ -105,7 +105,7 @@
             <span>Bootstrap</span>-
             <span>Tailwind</span>-
             <span>Git</span>-
-            <span>GitHup</span>
+            <span>GitHub</span>
         </p>
 
     </div>
